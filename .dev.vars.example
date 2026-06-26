@@ -1,0 +1,4 @@
+# ローカルで `wrangler pages dev` を使うとき用。これをコピーして .dev.vars を作る。
+# 本番（Cloudflare）ではダッシュボードの環境変数に同じものを設定する。
+ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxxxxx
+APP_PASSWORD=set-a-shared-password
